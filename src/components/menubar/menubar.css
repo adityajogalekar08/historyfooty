@@ -1,0 +1,10 @@
+.appheader {
+	background-color: #006622;
+}
+.navbar {
+	color: white;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.6em; /* 1em = 16px */
+}
