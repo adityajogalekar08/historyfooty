@@ -1,14 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Cards from './components/maincomponents/cards/cards';
-import MenuBar from './components/menubar/menubar';
+import "bootstrap/dist/css/bootstrap.min.css";
+import ButtonPages from "./components/maincomponents/buttons/ButtonPages";
+import Cards from "./components/maincomponents/cards/cards";
+import MenuBar from "./components/menubar/menubar";
 
 function App() {
-  return (
-    <>
-    <MenuBar></MenuBar>
-      <Cards></Cards>
-      </>
-  );
+	return (
+		<>
+			<MenuBar></MenuBar>
+			<ButtonPages></ButtonPages>
+		</>
+	);
 }
 
 export default App;

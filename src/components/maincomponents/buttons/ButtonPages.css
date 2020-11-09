@@ -1,0 +1,52 @@
+.row {
+	margin-top: 2em;
+}
+.eng {
+	background-color: #dcdcdc;
+	width: 12em;
+	height: 3em;
+	border: none;
+	color: black;
+}
+
+.eng:hover {
+	background-color: #002db3;
+	width: 12em;
+	height: 3em;
+}
+.esp {
+	background-color: #dcdcdc;
+	width: 12em;
+	height: 3em;
+	border: none;
+	color: black;
+}
+.esp:hover {
+	background-color: #ff8000;
+	width: 12em;
+	height: 3em;
+}
+.ita {
+	background-color: #dcdcdc;
+	width: 12em;
+	height: 3em;
+	border: none;
+	color: black;
+}
+.ita:hover {
+	background-color: #00cc44;
+	width: 12em;
+	height: 3em;
+}
+.ger {
+	background-color: #dcdcdc;
+	width: 12em;
+	height: 3em;
+	border: none;
+	color: black;
+}
+.ger:hover {
+	background-color: #e60000;
+	width: 12em;
+	height: 3em;
+}
