@@ -1,27 +1,40 @@
-import React from "react";
-import { Bar } from "react-chartjs-2";
-
-const data = {
-	labels: ["January", "February", "March", "April", "May", "June", "July"],
-	datasets: [
-		{
-			label: "My First dataset",
-			backgroundColor: "red",
-			borderColor: "rgba(255,99,132,1)",
-			borderWidth: 1,
-			hoverBackgroundColor: "rgba(255,99,132,0.4)",
-			hoverBorderColor: "rgba(255,99,132,1)",
-			data: [65, 59, 80, 81, 56, 55, 40],
-		},
-	],
-};
-
-function BarGraphs() {
+import React, { PureComponent } from "react";
+import info from "../assets/json/table1993-94.json";
+import {
+	ResponsiveContainer,
+	BarChart,
+	Bar,
+	Cell,
+	XAxis,
+	YAxis,
+	CartesianGrid,
+	Tooltip,
+	Legend,
+} from "recharts";
+/*function exampleBar(){
+  let position = null
+  let teams = null
+  const listitem = data.map((numb)=>{
+    position = numb.Pos
+    teams = numb.Team
+  });
+  return listitem
+}
+*/
+function ExampleBar() {
+	const data2 = info;
+	console.log(data2);
 	return (
-		<div>
-			<Bar data={data} width={1600} height={150} />
-		</div>
+		<ResponsiveContainer width="100%" minheight={400}>
+			<BarChart data={data2}>
+				<CartesianGrid />
+				<XAxis dataKey="Abbr" />
+				<YAxis />
+				<Tooltip />
+				<Bar dataKey="Pts" fill="#00dd00" />
+			</BarChart>
+		</ResponsiveContainer>
 	);
 }
 
-export default BarGraphs;
+export default ExampleBar;
