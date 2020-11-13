@@ -58,5 +58,65 @@
 		"team": "Leicester City",
 		"year": "1884",
 		"nickname": "The Foxes"
+	},
+	{
+		"id": "11",
+		"team": "Liverpool",
+		"year": "1892",
+		"nickname": "The Reds"
+	},
+	{
+		"id": "12",
+		"team": "Manchester City",
+		"year": "1880",
+		"nickname": "The Citizens, City, The Sky Blues"
+	},
+	{
+		"id": "13",
+		"team": "Manchester United",
+		"year": "1902",
+		"nickname": "The Red Devils"
+	},
+	{
+		"id": "14",
+		"team": "Newcastle United",
+		"year": "1892",
+		"nickname": "The Magpies, Geordies"
+	},
+	{
+		"id": "15",
+		"team": "Sheffield United",
+		"year": "1889",
+		"nickname": "The Blades, Red and White Wizards"
+	},
+	{
+		"id": "16",
+		"team": "Southampton",
+		"year": "1885",
+		"nickname": "The Saints"
+	},
+	{
+		"id": "17",
+		"team": "Tottenham Hotspur",
+		"year": "1882",
+		"nickname": "The Lilywhites, Spurs"
+	},
+	{
+		"id": "18",
+		"team": "West Bromwich Albion",
+		"year": "1878",
+		"nickname": "The Baggies, The Throstles, Albion"
+	},
+	{
+		"id": "19",
+		"team": "West Ham United",
+		"year": "1895",
+		"nickname": "The Irons, The Hammers, The Academy Of Football"
+	},
+	{
+		"id": "20",
+		"team": "Wolverhampton Wanderers",
+		"year": "1877",
+		"nickname": "Wolves, The Wanderers"
 	}
 ]
