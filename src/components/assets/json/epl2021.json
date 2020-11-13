@@ -9,7 +9,7 @@
 		"id": "2",
 		"team": "Aston Villa",
 		"year": "1874",
-		"nickname": "The Villans, The Villa, Villa"
+		"nickname": "The Villans, The Villa"
 	},
 	{
 		"id": "3",
@@ -39,19 +39,19 @@
 		"id": "7",
 		"team": "Everton",
 		"year": "1878",
-		"nickname": "The Blues, The Toffees, The People's Club"
+		"nickname": "The Blues, The Toffees"
 	},
 	{
 		"id": "8",
 		"team": "Fulham",
 		"year": "1879",
-		"nickname": "Cottagers, Whites, Black and White army"
+		"nickname": "Cottagers, Whites"
 	},
 	{
 		"id": "9",
 		"team": "Leeds United",
 		"year": "1919",
-		"nickname": "The Whites, United, The Peacocks"
+		"nickname": "The Whites, United"
 	},
 	{
 		"id": "10",
@@ -105,13 +105,13 @@
 		"id": "18",
 		"team": "West Bromwich Albion",
 		"year": "1878",
-		"nickname": "The Baggies, The Throstles, Albion"
+		"nickname": "The Baggies, Albion"
 	},
 	{
 		"id": "19",
 		"team": "West Ham United",
 		"year": "1895",
-		"nickname": "The Irons, The Hammers, The Academy Of Football"
+		"nickname": "The Irons, The Hammers"
 	},
 	{
 		"id": "20",

@@ -25,11 +25,7 @@ export const Stocks = () => {
 	);
 };
 const HomePageHeader = () => {
-	return (
-		<header className="header">
-			<h1>Premier League 2020-21</h1>
-		</header>
-	);
+	return <header className="header">Premier League 2020-21</header>;
 };
 const Stock = ({ team, year, nickname }) => {
 	return (
