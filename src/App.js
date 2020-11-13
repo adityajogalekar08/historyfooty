@@ -4,6 +4,7 @@ import HomePage from "./components/homepage/HomePage";
 import ButtonPages from "./components/maincomponents/buttons/ButtonPages";
 import Cards from "./components/maincomponents/cards/cards";
 import MenuBar from "./components/menubar/menubar";
+import { Stocks } from "./components/statTables/statTables";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<BarGraphs></BarGraphs>
 
 			<HomePage />
+			<Stocks></Stocks>
 		</>
 	);
 }
