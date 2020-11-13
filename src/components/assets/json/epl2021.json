@@ -1,0 +1,62 @@
+[
+	{
+		"id": "1",
+		"team": "Arsenal",
+		"year": "1886",
+		"nickname": "The Gunners"
+	},
+	{
+		"id": "2",
+		"team": "Aston Villa",
+		"year": "1874",
+		"nickname": "The Villans, The Villa, Villa"
+	},
+	{
+		"id": "3",
+		"team": "Brighton & Hove Albion",
+		"year": "1901",
+		"nickname": "The Seagulls, The Albion"
+	},
+	{
+		"id": "4",
+		"team": "Burnley FC",
+		"year": "1882",
+		"nickname": "The Clarets"
+	},
+	{
+		"id": "5",
+		"team": "Chelsea",
+		"year": "1905",
+		"nickname": "The Blues, The Pensioners"
+	},
+	{
+		"id": "6",
+		"team": "Crystal Palace",
+		"year": "1905",
+		"nickname": "The Eagles, The Glaziers"
+	},
+	{
+		"id": "7",
+		"team": "Everton",
+		"year": "1878",
+		"nickname": "The Blues, The Toffees, The People's Club"
+	},
+	{
+		"id": "8",
+		"team": "Fulham",
+		"year": "1879",
+		"nickname": "Cottagers, Whites, Black and White army"
+	},
+	{
+		"id": "9",
+		"team": "Leeds United",
+		"year": "1919",
+		"nickname": "The Whites, United, The Peacocks"
+	},
+	{
+		"id": "10",
+		"team": "Leicester City",
+		"year": "1884",
+		"nickname": "The Foxes"
+	}
+]
