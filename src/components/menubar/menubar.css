@@ -8,3 +8,17 @@
 	font-weight: bold;
 	font-size: 1.6em; /* 1em = 16px */
 }
+.cssMode {
+	background-color: Transparent;
+	border: none;
+	overflow: hidden;
+	outline: none;
+	text-decoration: none;
+}
+.cssMode:focus {
+	border: none;
+	outline: none;
+}
+.moon {
+	color: goldenrod;
+}
