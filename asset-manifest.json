@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/http//adityajogalekar08.github.io/historyfooty/static/css/main.270f98a5.chunk.css",
+    "main.js": "/http//adityajogalekar08.github.io/historyfooty/static/js/main.6f803275.chunk.js",
+    "main.js.map": "/http//adityajogalekar08.github.io/historyfooty/static/js/main.6f803275.chunk.js.map",
+    "runtime-main.js": "/http//adityajogalekar08.github.io/historyfooty/static/js/runtime-main.2ee1c1ac.js",
+    "runtime-main.js.map": "/http//adityajogalekar08.github.io/historyfooty/static/js/runtime-main.2ee1c1ac.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/http//adityajogalekar08.github.io/historyfooty/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.e4f88a55.chunk.js": "/http//adityajogalekar08.github.io/historyfooty/static/js/2.e4f88a55.chunk.js",
+    "static/js/2.e4f88a55.chunk.js.map": "/http//adityajogalekar08.github.io/historyfooty/static/js/2.e4f88a55.chunk.js.map",
+    "static/js/3.64020104.chunk.js": "/http//adityajogalekar08.github.io/historyfooty/static/js/3.64020104.chunk.js",
+    "static/js/3.64020104.chunk.js.map": "/http//adityajogalekar08.github.io/historyfooty/static/js/3.64020104.chunk.js.map",
+    "index.html": "/http//adityajogalekar08.github.io/historyfooty/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/http//adityajogalekar08.github.io/historyfooty/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.270f98a5.chunk.css.map": "/http//adityajogalekar08.github.io/historyfooty/static/css/main.270f98a5.chunk.css.map",
+    "static/js/2.e4f88a55.chunk.js.LICENSE.txt": "/http//adityajogalekar08.github.io/historyfooty/static/js/2.e4f88a55.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ee1c1ac.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.e4f88a55.chunk.js",
+    "static/css/main.270f98a5.chunk.css",
+    "static/js/main.6f803275.chunk.js"
+  ]
+}
