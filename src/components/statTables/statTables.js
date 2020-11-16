@@ -6,8 +6,27 @@ import jsonData from "../assets/json/epl2021.json";
 export const Stocks = () => {
 	return (
 		<>
-			<HomePageHeader />
 			<div className="stock-container">
+				<table>
+					<tr className="tr">
+						<td className="td1">
+							<p>Premier League 2020-21</p>
+						</td>
+						<td className="td1"></td>
+						<td className="td1"></td>
+					</tr>
+					<tr>
+						<td>
+							<th>Team</th>
+						</td>
+						<td>
+							<th>Year</th>
+						</td>
+						<td>
+							<th>Nickname</th>
+						</td>
+					</tr>
+				</table>
 				{jsonData.map((data, key) => {
 					return (
 						<div key={key}>
@@ -25,7 +44,11 @@ export const Stocks = () => {
 	);
 };
 const HomePageHeader = () => {
-	return <header className="header">Premier League 2020-21</header>;
+	return (
+		<Container fluid className="header">
+			Premier League 2020-21
+		</Container>
+	);
 };
 const Stock = ({ team, year, nickname }) => {
 	return (
@@ -38,3 +61,5 @@ const Stock = ({ team, year, nickname }) => {
 		</table>
 	);
 };
+
+export default Stocks;

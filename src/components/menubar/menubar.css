@@ -1,5 +1,13 @@
-.appheader {
+.appheader,
+.title {
 	background-color: #006622;
+	color: honeydew;
+	text-decoration: none;
+}
+.title:hover {
+	background-color: #006622;
+	color: honeydew;
+	text-decoration: none;
 }
 .navbar {
 	color: white;

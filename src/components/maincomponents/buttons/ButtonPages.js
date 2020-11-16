@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./ButtonPages.css";
 
 function ButtonPages() {
@@ -7,18 +8,26 @@ function ButtonPages() {
 		<>
 			<div>
 				<Container fluid>
-					<Row className="row">
+					<Row bsPrefix="row">
 						<Col>
-							<Button className="eng">English Premier League</Button>
+							<Link to="/epl" className="eng">
+								<Button bsPrefix="eng">English Premier League</Button>
+							</Link>
 						</Col>
 						<Col>
-							<Button className="ita">Italian Serie A</Button>
+							<Link to="/epl" className="eng">
+								<Button bsPrefix="ita">Italian</Button>
+							</Link>
 						</Col>
 						<Col>
-							<Button className="ger">BundesLiga</Button>
+							<Link to="/epl" className="eng">
+								<Button bsPrefix="ger">BundesLiga</Button>
+							</Link>
 						</Col>
 						<Col>
-							<Button className="esp">La LIGA</Button>
+							<Link to="/epl" className="eng">
+								<Button bsPrefix="esp">La LIGA</Button>
+							</Link>
 						</Col>
 					</Row>
 				</Container>

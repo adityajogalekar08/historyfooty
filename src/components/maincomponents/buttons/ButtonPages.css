@@ -1,52 +1,31 @@
 .row {
 	margin-top: 2em;
+	text-decoration: none;
+	border: none !important;
 }
-.eng {
-	background-color: #dcdcdc;
-	width: 12em;
-	height: 3em;
-	border: none;
-	color: black;
-}
-
-.eng:hover {
-	background-color: #002db3;
-	width: 12em;
-	height: 3em;
-}
-.esp {
-	background-color: #dcdcdc;
-	width: 12em;
-	height: 3em;
-	border: none;
-	color: black;
-}
-.esp:hover {
-	background-color: #ff8000;
-	width: 12em;
-	height: 3em;
-}
-.ita {
-	background-color: #dcdcdc;
-	width: 12em;
-	height: 3em;
-	border: none;
-	color: black;
-}
-.ita:hover {
-	background-color: #00cc44;
-	width: 12em;
-	height: 3em;
-}
+.eng,
+.ita,
+.esp,
 .ger {
 	background-color: #dcdcdc;
 	width: 12em;
 	height: 3em;
-	border: none;
+	border: none !important;
 	color: black;
+	text-decoration: none;
 }
-.ger:hover {
-	background-color: #e60000;
+.eng:hover,
+.eng:active,
+.ita:hover,
+.ita:active,
+.esp:hover,
+.esp:active,
+.ger:hover,
+.ger:active {
+	background-color: #d0d0d0;
 	width: 12em;
 	height: 3em;
+	border: none !important;
+	color: black;
+	text-decoration: none;
 }

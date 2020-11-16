@@ -1,22 +1,23 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-import BarGraphs from "./components/graphs/BarGraphs";
 import HomePage from "./components/homepage/HomePage";
 import ButtonPages from "./components/maincomponents/buttons/ButtonPages";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import MenuBar from "./components/menubar/menubar";
 import React from "react";
+import Switch from "react-bootstrap/esm/Switch";
+import statTables from "./components/statTables/statTables";
 function App() {
 	return (
 		<>
 			<Router>
 				<MenuBar></MenuBar>
 				<ButtonPages></ButtonPages>
-
-				<BarGraphs></BarGraphs>
-
-				<HomePage />
+				<Switch>
+					<Route extact path="/" />
+					<Route extact path="/epl" component={statTables} />
+				</Switch>
 			</Router>
 		</>
 	);

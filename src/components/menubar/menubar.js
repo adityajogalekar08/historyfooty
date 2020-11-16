@@ -6,6 +6,7 @@ import { GlobalStyles } from "../../components/globalStyles";
 import { lightTheme, darkTheme } from "../../components/Themes";
 
 import { FaRegMoon as Moon } from "react-icons/fa";
+import { Link } from "react-router-dom";
 function MenuBar() {
 	const [theme, setTheme] = useState("light");
 	const themeToggler = () => {
@@ -18,7 +19,12 @@ function MenuBar() {
 
 				<Container fluid className="appheader">
 					<Navbar expand="lg" bsPrefix="navbar">
-						<Navbar.Brand bsPrefix="title">Title</Navbar.Brand>
+						<Navbar.Brand bsPrefix="title">
+							<Link to="/" className="title">
+								Title
+							</Link>
+						</Navbar.Brand>
+
 						<Navbar.Toggle />
 						<Navbar.Collapse className="justify-content-end">
 							<Navbar.Text bsPrefix="title">
