@@ -15,15 +15,10 @@ function App() {
 		<>
 			<Router>
 				<Dashboard />
-				{/*
-				
-				<MenuBar></MenuBar>
-				<ButtonPages></ButtonPages>
 				<Switch>
 					<Route extact path="/" />
 					<Route extact path="/epl" component={statTables} />
 				</Switch>
-				*/}
 			</Router>
 		</>
 	);
