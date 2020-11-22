@@ -5,7 +5,19 @@ import "../../App.css";
 import BarGraphs from "../graphs/BarGraphs";
 import data from "../assets/json/manutd.json";
 
-const DataTable = ({ name, club, info, opened, capacity, avg, record }) => {
+const DataTable = ({
+	name,
+	club,
+	info,
+	opened,
+	capacity,
+	avg,
+	record,
+	founded,
+	nickname,
+	recApp,
+	recGoals,
+}) => {
 	return (
 		<>
 			<div className="wrapper">
@@ -33,40 +45,25 @@ const DataTable = ({ name, club, info, opened, capacity, avg, record }) => {
 						<p className="record">{record}</p>
 					</div>
 				</section>
-				{/*<section className="boxes">
+				<p className="clubStats">{club} Stats</p>
+				<section className="boxes">
 					<div className="box">
-						<i className="fas fa-chart-pie fa-4x"></i>
-						<h3>Analytics</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
-							expedita?
-						</p>
+						<h3>{founded}</h3>
+						<p>Founded</p>
 					</div>
 					<div className="box">
-						<i className="fas fa-globe fa-4x"></i>
-						<h3>Marketing</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
-							expedita?
-						</p>
+						<h3>{nickname}</h3>
+						<p>Nickname</p>
 					</div>
 					<div className="box">
-						<i className="fas fa-cog fa-4x"></i>
-						<h3>Development</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
-							expedita?
-						</p>
+						<h3>{recApp}</h3>
+						<p>Most Appearances</p>
 					</div>
 					<div className="box">
-						<i className="fas fa-users fa-4x"></i>
-						<h3>Support</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
-							expedita?
-						</p>
-	</div> 
-				</section>*/}
+						<h3>{recGoals}</h3>
+						<p>Most Goals</p>
+					</div>
+				</section>
 			</div>
 		</>
 	);
@@ -82,6 +79,10 @@ function dasboard() {
 				capacity={i.capacity}
 				avg={i.avgAttendance}
 				record={i.recordAttn}
+				founded={i.founded}
+				recApp={i.recordAppearances}
+				recGoals={i.recordGoalscorer}
+				nickname={i.nickname}
 			/>
 		);
 	});

@@ -17,7 +17,7 @@ function App() {
 				<Dashboard />
 				<Switch>
 					<Route extact path="/" />
-					<Route extact path="/epl" component={statTables} />
+					<Route extact path="/epl" component={Dashboard} />
 				</Switch>
 			</Router>
 		</>
