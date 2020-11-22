@@ -12,7 +12,7 @@ const DataTable = ({ name, club, info, opened, capacity, avg, record }) => {
 				<section className="top-container">
 					<header className="showcase">
 						<h1>
-							{club}:{name}
+							{club}: {name}
 						</h1>
 						<p>{info}</p>
 					</header>
@@ -29,11 +29,11 @@ const DataTable = ({ name, club, info, opened, capacity, avg, record }) => {
 						<p className="avg">{avg}</p>
 					</div>
 					<div className="top-box top-box-d">
-						<h4>Stadium</h4>
+						<h4>Record Attendance</h4>
 						<p className="record">{record}</p>
 					</div>
 				</section>
-				<section className="boxes">
+				{/*<section className="boxes">
 					<div className="box">
 						<i className="fas fa-chart-pie fa-4x"></i>
 						<h3>Analytics</h3>
@@ -65,8 +65,8 @@ const DataTable = ({ name, club, info, opened, capacity, avg, record }) => {
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
 							expedita?
 						</p>
-					</div>
-				</section>
+	</div> 
+				</section>*/}
 			</div>
 		</>
 	);
@@ -81,7 +81,7 @@ function dasboard() {
 				opened={i.opened}
 				capacity={i.capacity}
 				avg={i.avgAttendance}
-				first={i.recordAttn}
+				record={i.recordAttn}
 			/>
 		);
 	});

@@ -89,11 +89,11 @@ img {
 .showcase h1 {
 	font-size: 4rem;
 	margin-bottom: 0;
-	color: var(--textColor);
+	color: red;
 }
 
 .showcase p {
-	font-size: 1.3rem;
+	font-size: 1rem;
 	margin-top: 0;
 	color: var(--textColor);
 }
@@ -112,14 +112,25 @@ img {
 .top-box,
 .opened,
 .capacity,
-.record {
+.record,
+.avg {
 	font-size: 2.5rem;
 }
-
+.opened {
+	color: #daa520;
+}
+.capacity {
+	color: #a0522d;
+}
+.avg {
+	color: #228b22;
+}
 .top-box-a {
 	grid-area: top-box-a;
 }
-
+.record {
+	color: #ffa500;
+}
 .top-box-b {
 	grid-area: top-box-b;
 }
