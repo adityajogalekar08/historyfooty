@@ -10,6 +10,8 @@ import {
 	CartesianGrid,
 	Tooltip,
 	Legend,
+	PieChart,
+	Pie,
 } from "recharts";
 /*function exampleBar(){
   let position = null
@@ -25,15 +27,17 @@ function ExampleBar() {
 	const data2 = info;
 	console.log(data2);
 	return (
-		<ResponsiveContainer width="100%" minheight={400}>
-			<BarChart data={data2}>
-				<CartesianGrid />
-				<XAxis dataKey="Abbr" />
-				<YAxis />
-				<Tooltip />
-				<Bar dataKey="Pts" fill="#00dd00" />
-			</BarChart>
-		</ResponsiveContainer>
+		<>
+			<ResponsiveContainer width="100%" minheight={400} height={300}>
+				<BarChart data={data2}>
+					<CartesianGrid />
+					<XAxis dataKey="Abbr" />
+					<YAxis />
+					<Tooltip />
+					<Bar dataKey="Pts" fill="#00dd00" />
+				</BarChart>
+			</ResponsiveContainer>
+		</>
 	);
 }
 

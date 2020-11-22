@@ -1,0 +1,60 @@
+.mainCol1 {
+	max-width: 49%;
+	width: 50%;
+	height: 100%;
+	border: none;
+	color: black;
+	padding: 10px;
+	box-shadow: 5px 8px gainsboro;
+	font-size: medium;
+	font-weight: bold;
+}
+.mainCol2 {
+	max-width: 50%;
+	width: 50%;
+	height: 100%;
+	padding: 10px;
+	box-shadow: 5px 8px gainsboro;
+	font-size: medium;
+	font-weight: bold;
+}
+.mainRow1 {
+	column-gap: 0.125%;
+	margin-left: 1em;
+}
+.parentDIV,
+.r1 {
+}
+.mainContainer {
+}
+.c2c1 {
+	max-width: 35%;
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	border: none;
+	color: white;
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 8px gainsboro;
+}
+.c2c2 {
+	max-width: 60%;
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+	border: none;
+	color: white;
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 8px gainsboro;
+}
+.c1 {
+	max-width: 40%;
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+	border: none;
+	color: white;
+	margin-left: 4%;
+}
