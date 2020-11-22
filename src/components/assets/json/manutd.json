@@ -1,0 +1,11 @@
+[
+	{
+		"name": "Old Trafford",
+		"club": "Mancheter United",
+		"info": "Built in 1909 and opened officially in 1910, Old Trafford has always played host to Manchester United Football Club, or the Red Devils as they are known. It is the largest club stadium in the United Kingdom, second only to Wembley in terms of capacity.",
+		"opened": "1910",
+		"capacity": "76,000",
+		"avgAttendance": "74,879",
+		"recordAttn": "76,962"
+	}
+]
