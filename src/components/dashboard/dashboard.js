@@ -11,24 +11,26 @@ const DataTable = ({ name, club, info, opened, capacity, avg, record }) => {
 			<div className="wrapper">
 				<section className="top-container">
 					<header className="showcase">
-						<h1>{club}</h1>
+						<h1>
+							{club}:{name}
+						</h1>
 						<p>{info}</p>
 					</header>
 					<div className="top-box top-box-a">
 						<h4>Opened in</h4>
-						<p className="price">{opened}</p>
+						<p className="opened">{opened}</p>
 					</div>
 					<div className="top-box top-box-b">
 						<h4>Capacity</h4>
-						<p className="price">{capacity}</p>
+						<p className="capacity">{capacity}</p>
 					</div>
 					<div className="top-box top-box-c">
 						<h4>Average Attendance</h4>
-						<p className="price">{avg}</p>
+						<p className="avg">{avg}</p>
 					</div>
 					<div className="top-box top-box-d">
-						<h4>Record Attendance</h4>
-						<p className="price">{record}</p>
+						<h4>Stadium</h4>
+						<p className="record">{record}</p>
 					</div>
 				</section>
 				<section className="boxes">

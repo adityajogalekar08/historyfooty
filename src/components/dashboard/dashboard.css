@@ -109,7 +109,10 @@ img {
 	color: var(--textColor);
 }
 
-.top-box .price {
+.top-box,
+.opened,
+.capacity,
+.record {
 	font-size: 2.5rem;
 }
 
