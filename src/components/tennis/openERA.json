@@ -1,0 +1,22 @@
+[
+	{
+		"id": "1",
+		"name": "Roger Federer",
+		"aus": "6",
+		"fra": "1",
+		"wim": "8",
+		"usa": "5",
+		"grandslamTitles": "20",
+		"finals": "31"
+	},
+	{
+		"id": "2",
+		"name": "Rafael Nadal",
+		"aus": "1",
+		"fra": "13",
+		"wim": "2",
+		"usa": "4",
+		"grandslamTitles": "20",
+		"finals": "28"
+	}
+]

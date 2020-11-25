@@ -23,45 +23,45 @@ const DataTable = ({
 			<div className="wrapper">
 				<section className="top-container">
 					<header className="showcase">
-						<h1>
+						<h1 className="headerH1">
 							{club}: {name}
 						</h1>
-						<p>{info}</p>
+						<p className="headerP1">{info}</p>
 					</header>
 					<div className="top-box top-box-a">
-						<h4>Opened in</h4>
+						<h4 className="headerH4">Opened in</h4>
 						<p className="opened">{opened}</p>
 					</div>
 					<div className="top-box top-box-b">
-						<h4>Capacity</h4>
+						<h4 className="headerH4">Capacity</h4>
 						<p className="capacity">{capacity}</p>
 					</div>
 					<div className="top-box top-box-c">
-						<h4>Average Attendance</h4>
+						<h4 className="headerH4">Average Attendance</h4>
 						<p className="avg">{avg}</p>
 					</div>
 					<div className="top-box top-box-d">
-						<h4>Record Attendance</h4>
+						<h4 className="headerH4">Record Attendance</h4>
 						<p className="record">{record}</p>
 					</div>
 				</section>
 				<p className="clubStats">{club} Stats</p>
 				<section className="boxes">
 					<div className="box">
-						<h3>{founded}</h3>
-						<p>Founded</p>
+						<h3 className="headerH3">{founded}</h3>
+						<p className="headerP3">Founded</p>
 					</div>
 					<div className="box">
-						<h3>{nickname}</h3>
-						<p>Nickname</p>
+						<h3 className="headerH3">{nickname}</h3>
+						<p className="headerP3">Nickname</p>
 					</div>
 					<div className="box">
-						<h3>{recApp}</h3>
-						<p>Most Appearances</p>
+						<h3 className="headerH3">{recApp}</h3>
+						<p className="headerP3">Most Appearances</p>
 					</div>
 					<div className="box">
-						<h3>{recGoals}</h3>
-						<p>Most Goals</p>
+						<h3 className="headerH3">{recGoals}</h3>
+						<p className="headerP3">Most Goals</p>
 					</div>
 				</section>
 			</div>

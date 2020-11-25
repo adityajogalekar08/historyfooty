@@ -1,0 +1,105 @@
+/* CSS Variables */
+:root {
+	--tennisprimary: #f2f3f4;
+	--tennisdark: #333;
+	--tennislight: #fff;
+	--tennisshadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+	--textColor: black;
+	--aus: #1e8fd5;
+	--fra: #e3783b;
+	--wim: #84b118;
+	--usa: #3c638e;
+}
+
+.tenniswrapper {
+	display: grid;
+	grid-gap: 10px;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--tennisdark);
+	background: white;
+	margin: 50px 60px;
+	line-height: 1.4;
+}
+.tennis-top-container {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-areas:
+		"aus fra "
+		"wim usa";
+}
+.aus {
+	grid-area: aus;
+
+	min-width: 300px;
+	min-height: 300px;
+	border-bottom: 5px solid var(--aus);
+	background-size: cover;
+	background-position: center;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	box-shadow: var(--tennisshadow);
+}
+.fra {
+	grid-area: fra;
+	min-width: 300px;
+	min-height: 300px;
+	border-bottom: 5px solid var(--fra);
+	background-size: cover;
+	background-position: center;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	box-shadow: var(--tennisshadow);
+}
+.usa {
+	grid-area: usa;
+	min-height: 300px;
+	min-width: 300px;
+	border-bottom: 5px solid var(--usa);
+	background-size: cover;
+	background-position: center;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	box-shadow: var(--tennisshadow);
+}
+.wim {
+	grid-area: wim;
+	min-height: 300px;
+	min-width: 300px;
+	border-bottom: 5px solid var(--wim);
+	background-size: cover;
+	background-position: center;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	box-shadow: var(--tennisshadow);
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+	.top-container {
+		grid-template-areas:
+			"aus fra"
+			"wim usa";
+	}
+}
+@media (max-width: 500px) {
+	.top-container {
+		grid-template-areas:
+			"aus"
+			"fra"
+			"wim"
+			"usa";
+	}
+}
