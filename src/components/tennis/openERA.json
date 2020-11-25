@@ -7,7 +7,8 @@
 		"wim": "8",
 		"usa": "5",
 		"grandslamTitles": "20",
-		"finals": "31"
+		"finals": "31",
+		"abbr": "RF"
 	},
 	{
 		"id": "2",
@@ -17,6 +18,29 @@
 		"wim": "2",
 		"usa": "4",
 		"grandslamTitles": "20",
-		"finals": "28"
+		"finals": "28",
+		"abbr": "RN"
+	},
+	{
+		"id": "3",
+		"name": "Novak Djokovic",
+		"aus": "8",
+		"fra": "1",
+		"wim": "5",
+		"usa": "3",
+		"grandslamTitles": "17",
+		"finals": "27",
+		"abbr": "ND"
+	},
+	{
+		"id": "4",
+		"name": "Pete Sampras",
+		"aus": "2",
+		"fra": "0",
+		"wim": "7",
+		"usa": "5",
+		"grandslamTitles": "14",
+		"finals": "18",
+		"abbr": "PS"
 	}
 ]

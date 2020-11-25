@@ -19,6 +19,7 @@ function TennisInfo() {
 				<section className="tennis-top-container">
 					<div className="aus">
 						{" "}
+						<p className="category">Australian Open</p>
 						<ResponsiveContainer
 							width="100%"
 							maxwidth="500"
@@ -27,7 +28,14 @@ function TennisInfo() {
 						>
 							<BarChart data={Tennisdata}>
 								<CartesianGrid />
-								<XAxis dataKey="name" />
+								<XAxis
+									dataKey="abbr"
+									label={{
+										value: "abbr",
+										position: "insideBottomRight",
+										dy: 10,
+									}}
+								/>
 								<YAxis />
 								<Tooltip />
 								<Bar dataKey="aus" fill="#1e8fd5" />
@@ -37,10 +45,11 @@ function TennisInfo() {
 
 					<div className="fra">
 						{" "}
+						<p className="category">French Open</p>
 						<ResponsiveContainer width="100%" minheight={400} height={300}>
 							<BarChart data={Tennisdata}>
 								<CartesianGrid />
-								<XAxis dataKey="name" />
+								<XAxis dataKey="abbr" />
 								<YAxis />
 								<Tooltip />
 								<Bar dataKey="fra" fill="#e3783b" />
@@ -49,10 +58,11 @@ function TennisInfo() {
 					</div>
 					<div className="wim">
 						{" "}
+						<p className="category">Wimbledon</p>
 						<ResponsiveContainer width="100%" minheight={400} height={300}>
 							<BarChart data={Tennisdata}>
 								<CartesianGrid />
-								<XAxis dataKey="name" />
+								<XAxis dataKey="abbr" />
 								<YAxis />
 								<Tooltip />
 								<Bar dataKey="wim" fill="#84b118" />
@@ -61,13 +71,40 @@ function TennisInfo() {
 					</div>
 					<div className="usa">
 						{" "}
+						<p className="category">US Open</p>
 						<ResponsiveContainer width="100%" minheight={400} height={300}>
 							<BarChart data={Tennisdata}>
 								<CartesianGrid />
-								<XAxis dataKey="name" />
+								<XAxis dataKey="abbr" />
 								<YAxis />
 								<Tooltip />
 								<Bar dataKey="usa" fill="#3c638e" />
+							</BarChart>
+						</ResponsiveContainer>
+					</div>
+					<div className="grandslams">
+						{" "}
+						<p className="category">Most Grandslams</p>
+						<ResponsiveContainer width="100%" minheight={400} height={300}>
+							<BarChart data={Tennisdata}>
+								<CartesianGrid />
+								<XAxis dataKey="abbr" />
+								<YAxis />
+								<Tooltip />
+								<Bar dataKey="grandslamTitles" fill="#FFB700" />
+							</BarChart>
+						</ResponsiveContainer>
+					</div>
+					<div className="finals">
+						{" "}
+						<p className="category">Most Finals</p>
+						<ResponsiveContainer width="100%" minheight={400} height={300}>
+							<BarChart data={Tennisdata}>
+								<CartesianGrid />
+								<XAxis dataKey="abbr" />
+								<YAxis />
+								<Tooltip />
+								<Bar dataKey="finals" fill="#5C2B2E" />
 							</BarChart>
 						</ResponsiveContainer>
 					</div>

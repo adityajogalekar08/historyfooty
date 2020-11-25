@@ -11,11 +11,11 @@ function App() {
 	return (
 		<>
 			<Router>
-				<Link to="/epl" className="eng">
-					<Button bsPrefix="eng">MAN UTD</Button>
+				<Link to="/epl" className="linkButtons">
+					<Button bsPrefix="linkButtons">MAN UTD</Button>
 				</Link>
-				<Link to="/tennis" className="eng">
-					<Button bsPrefix="eng">TENNIS</Button>
+				<Link to="/tennis" className="linkButtons">
+					<Button bsPrefix="linkButtons">TENNIS</Button>
 				</Link>
 				<Switch>
 					<Route extact path="/" />

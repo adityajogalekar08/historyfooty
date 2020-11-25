@@ -9,6 +9,8 @@
 	--fra: #e3783b;
 	--wim: #84b118;
 	--usa: #3c638e;
+	--finals: #5c2b2e;
+	--grandslams: #ffb700;
 }
 
 .tenniswrapper {
@@ -25,8 +27,8 @@
 	display: grid;
 	grid-gap: 10px;
 	grid-template-areas:
-		"aus fra "
-		"wim usa";
+		"finals aus fra "
+		"grandslams wim usa";
 }
 .aus {
 	grid-area: aus;
@@ -85,21 +87,36 @@
 	justify-content: center;
 	box-shadow: var(--tennisshadow);
 }
-
-/* Media Queries */
-@media (max-width: 700px) {
-	.top-container {
-		grid-template-areas:
-			"aus fra"
-			"wim usa";
-	}
+.finals {
+	grid-area: finals;
+	min-height: 300px;
+	min-width: 300px;
+	border-bottom: 5px solid var(--finals);
+	background-size: cover;
+	background-position: center;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	box-shadow: var(--tennisshadow);
 }
-@media (max-width: 500px) {
-	.top-container {
-		grid-template-areas:
-			"aus"
-			"fra"
-			"wim"
-			"usa";
-	}
+.grandslams {
+	grid-area: grandslams;
+	min-height: 300px;
+	min-width: 300px;
+	border-bottom: 5px solid var(--grandslams);
+	background-size: cover;
+	background-position: center;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	box-shadow: var(--tennisshadow);
+}
+.category {
+	color: black;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
 }

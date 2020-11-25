@@ -1,3 +1,8 @@
+.linkButtons {
+	margin: 0.2% 1%;
+}
+/* *********************** dashboard.css *************** */
+
 /* Media Queries
 @media (max-width: 700px) {
 	.top-container {
@@ -37,3 +42,24 @@
 	}
 }
  */
+
+/* ************************************************ tennisinfo.css ************************ */
+/* Media Queries */
+/*
+@media (max-width: 700px) {
+	.top-container {
+		grid-template-areas:
+			"aus fra"
+			"wim usa";
+	}
+}
+@media (max-width: 500px) {
+	.top-container {
+		grid-template-areas:
+			"aus"
+			"fra"
+			"wim"
+			"usa";
+	}
+}
+*/
