@@ -1,24 +1,55 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
 import "./HomePage.css";
-import BarGraphs from "../graphs/BarGraphs";
+import teams from "../extract";
 
-function HomePage() {
+const TeamCards = (props) => {
+	const teamsList = teams();
+	return teamsList.map((item, i) => {
+		if (props.activeTeam === item.teamName) {
+			return (
+				<li
+					className="team-card team-card-appear"
+					value="nameeee"
+					key={i}
+					onClick={props.changeTeam}
+					data-id={item.teamName}
+					style={{
+						animationDelay: `${i * 40}ms`,
+						minHeight: "90px",
+						borderBottom: "2px solid white",
+					}}
+				>
+					<p className="ssp-400 team-name" style={{ fontSize: "21px" }}>
+						{item.teamName}
+					</p>
+				</li>
+			);
+		}
+		return (
+			<li
+				className="team-card team-card-appear"
+				value="nameeee"
+				key={i}
+				onClick={props.changeTeam}
+				data-id={item.teamName}
+				style={{
+					animationDelay: `${i * 40}ms`,
+				}}
+			>
+				<p className="ssp-400 team-name">{item.teamName}</p>
+			</li>
+		);
+	});
+};
+const Teams = (props) => {
 	return (
-		<>
-			<div>
-				<Container fluid>
-					<Row className="row">
-						<Col className="col1">
-							<BarGraphs></BarGraphs>
-						</Col>
-						<Col></Col>
-						<Col></Col>
-					</Row>
-				</Container>
-			</div>
-		</>
+		<div className="team-cards-container">
+			<TeamCards
+				activeTeam={props.activeTeam}
+				changeTeam={props.changeTeamContext}
+			/>
+		</div>
 	);
-}
+};
 
-export default HomePage;
+export default Teams;

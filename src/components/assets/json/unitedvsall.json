@@ -1,0 +1,882 @@
+[
+	{
+		"club": "Accrington",
+		"played": 2,
+		"won": 0,
+		"draw": 2,
+		"lost": 0,
+		"for": 5,
+		"against": 5,
+		"win%": 0
+	},
+	{
+		"club": "Arsenal",
+		"played": 202,
+		"won": 83,
+		"draw": 48,
+		"lost": 71,
+		"for": 305,
+		"against": 281,
+		"win%": 41.09
+	},
+	{
+		"club": "Aston Villa",
+		"played": 167,
+		"won": 85,
+		"draw": 39,
+		"lost": 43,
+		"for": 304,
+		"against": 216,
+		"win%": 50.9
+	},
+	{
+		"club": "Barnsley",
+		"played": 32,
+		"won": 19,
+		"draw": 9,
+		"lost": 4,
+		"for": 64,
+		"against": 21,
+		"win%": 59.38
+	},
+	{
+		"club": "Birmingham City",
+		"played": 100,
+		"won": 45,
+		"draw": 29,
+		"lost": 26,
+		"for": 157,
+		"against": 112,
+		"win%": 45
+	},
+	{
+		"club": "Birmingham St George's",
+		"played": 6,
+		"won": 3,
+		"draw": 0,
+		"lost": 3,
+		"for": 11,
+		"against": 16,
+		"win%": 50
+	},
+	{
+		"club": "Blackburn Rovers",
+		"played": 98,
+		"won": 45,
+		"draw": 25,
+		"lost": 28,
+		"for": 183,
+		"against": 140,
+		"win%": 45.92
+	},
+	{
+		"club": "Blackpool",
+		"played": 82,
+		"won": 45,
+		"draw": 17,
+		"lost": 20,
+		"for": 156,
+		"against": 98,
+		"win%": 54.88
+	},
+	{
+		"club": "Bolton Wanderers",
+		"played": 118,
+		"won": 52,
+		"draw": 25,
+		"lost": 41,
+		"for": 192,
+		"against": 156,
+		"win%": 44.07
+	},
+	{
+		"club": "Bootle",
+		"played": 6,
+		"won": 3,
+		"draw": 1,
+		"lost": 2,
+		"for": 11,
+		"against": 11,
+		"win%": 50
+	},
+	{
+		"club": "Bournemouth",
+		"played": 9,
+		"won": 6,
+		"draw": 1,
+		"lost": 2,
+		"for": 17,
+		"against": 8,
+		"win%": 66.67
+	},
+	{
+		"club": "Bradford City",
+		"played": 46,
+		"won": 22,
+		"draw": 13,
+		"lost": 11,
+		"for": 78,
+		"against": 37,
+		"win%": 47.83
+	},
+	{
+		"club": "Bradford Park Avenue",
+		"played": 18,
+		"won": 8,
+		"draw": 1,
+		"lost": 9,
+		"for": 30,
+		"against": 36,
+		"win%": 44.44
+	},
+	{
+		"club": "Brentford",
+		"played": 10,
+		"won": 4,
+		"draw": 2,
+		"lost": 4,
+		"for": 19,
+		"against": 19,
+		"win%": 40
+	},
+	{
+		"club": "Brighton & Hove Albion",
+		"played": 13,
+		"won": 8,
+		"draw": 2,
+		"lost": 3,
+		"for": 20,
+		"against": 10,
+		"win%": 61.54
+	},
+	{
+		"club": "Bristol City",
+		"played": 34,
+		"won": 14,
+		"draw": 10,
+		"lost": 10,
+		"for": 47,
+		"against": 39,
+		"win%": 41.18
+	},
+	{
+		"club": "Bristol Rovers",
+		"played": 2,
+		"won": 1,
+		"draw": 1,
+		"lost": 0,
+		"for": 3,
+		"against": 1,
+		"win%": 50
+	},
+	{
+		"club": "Burnley",
+		"played": 114,
+		"won": 53,
+		"draw": 20,
+		"lost": 41,
+		"for": 197,
+		"against": 165,
+		"win%": 56.14
+	},
+	{
+		"club": "Burton Swifts",
+		"played": 16,
+		"won": 8,
+		"draw": 4,
+		"lost": 3,
+		"for": 41,
+		"against": 25,
+		"win%": 50
+	},
+	{
+		"club": "Burton United",
+		"played": 10,
+		"won": 7,
+		"draw": 2,
+		"lost": 1,
+		"for": 25,
+		"against": 8,
+		"win%": 70
+	},
+	{
+		"club": "Burton Wanderers",
+		"played": 6,
+		"won": 2,
+		"draw": 1,
+		"lost": 3,
+		"for": 8,
+		"against": 10,
+		"win%": 33.33
+	},
+	{
+		"club": "Bury",
+		"played": 38,
+		"won": 19,
+		"draw": 7,
+		"lost": 12,
+		"for": 58,
+		"against": 46,
+		"win%": 50
+	},
+	{
+		"club": "Cardiff City",
+		"played": 30,
+		"won": 15,
+		"draw": 8,
+		"lost": 7,
+		"for": 59,
+		"against": 42,
+		"win%": 50
+	},
+	{
+		"club": "Charlton Athletic",
+		"played": 56,
+		"won": 35,
+		"draw": 11,
+		"lost": 10,
+		"for": 113,
+		"against": 59,
+		"win%": 62.5
+	},
+	{
+		"club": "Chelsea",
+		"played": 156,
+		"won": 63,
+		"draw": 48,
+		"lost": 45,
+		"for": 249,
+		"against": 192,
+		"win%": 40.38
+	},
+	{
+		"club": "Chesterfield",
+		"played": 20,
+		"won": 13,
+		"draw": 1,
+		"lost": 6,
+		"for": 41,
+		"against": 22,
+		"win%": 65
+	},
+	{
+		"club": "Coventry City",
+		"played": 74,
+		"won": 39,
+		"draw": 16,
+		"lost": 19,
+		"for": 124,
+		"against": 70,
+		"win%": 52.7
+	},
+	{
+		"club": "Crewe Alexandra",
+		"played": 10,
+		"won": 8,
+		"draw": 1,
+		"lost": 1,
+		"for": 32,
+		"against": 11,
+		"win%": 80
+	},
+	{
+		"club": "Crystal Palace",
+		"played": 45,
+		"won": 29,
+		"draw": 9,
+		"lost": 7,
+		"for": 84,
+		"against": 39,
+		"win%": 64.44
+	},
+	{
+		"club": "Darwen",
+		"played": 16,
+		"won": 8,
+		"draw": 3,
+		"lost": 5,
+		"for": 35,
+		"against": 22,
+		"win%": 50
+	},
+	{
+		"club": "Derby County",
+		"played": 90,
+		"won": 36,
+		"draw": 27,
+		"lost": 27,
+		"for": 157,
+		"against": 136,
+		"win%": 40
+	},
+	{
+		"club": "Doncaster Rovers",
+		"played": 8,
+		"won": 4,
+		"draw": 3,
+		"lost": 1,
+		"for": 19,
+		"against": 6,
+		"win%": 50
+	},
+	{
+		"club": "Everton",
+		"played": 182,
+		"won": 80,
+		"draw": 44,
+		"lost": 58,
+		"for": 280,
+		"against": 257,
+		"win%": 43.96
+	},
+	{
+		"club": "Fulham",
+		"played": 70,
+		"won": 43,
+		"draw": 15,
+		"lost": 12,
+		"for": 143,
+		"against": 76,
+		"win%": 61.43
+	},
+	{
+		"club": "Gainsborough Trinity",
+		"played": 20,
+		"won": 13,
+		"draw": 5,
+		"lost": 2,
+		"for": 36,
+		"against": 14,
+		"win%": 65
+	},
+	{
+		"club": "Glossop North End",
+		"played": 14,
+		"won": 11,
+		"draw": 2,
+		"lost": 1,
+		"for": 34,
+		"against": 10,
+		"win%": 78.57
+	},
+	{
+		"club": "Grimsby Town",
+		"played": 42,
+		"won": 17,
+		"draw": 8,
+		"lost": 17,
+		"for": 73,
+		"against": 80,
+		"win%": 40.48
+	},
+	{
+		"club": "Huddersfield Town",
+		"played": 46,
+		"won": 20,
+		"draw": 16,
+		"lost": 10,
+		"for": 85,
+		"against": 64,
+		"win%": 43.48
+	},
+	{
+		"club": "Hull City",
+		"played": 26,
+		"won": 17,
+		"draw": 5,
+		"lost": 4,
+		"for": 52,
+		"against": 24,
+		"win%": 65.38
+	},
+	{
+		"club": "Ipswich Town",
+		"played": 50,
+		"won": 24,
+		"draw": 9,
+		"lost": 17,
+		"for": 80,
+		"against": 61,
+		"win%": 48
+	},
+	{
+		"club": "Leeds City",
+		"played": 2,
+		"won": 1,
+		"draw": 0,
+		"lost": 1,
+		"for": 3,
+		"against": 4,
+		"win%": 50
+	},
+	{
+		"club": "Leeds United",
+		"played": 92,
+		"won": 37,
+		"draw": 32,
+		"lost": 23,
+		"for": 127,
+		"against": 98,
+		"win%": 40.22
+	},
+	{
+		"club": "Leicester City",
+		"played": 123,
+		"won": 62,
+		"draw": 29,
+		"lost": 32,
+		"for": 245,
+		"against": 163,
+		"win%": 50.41
+	},
+	{
+		"club": "Leyton Orient",
+		"played": 12,
+		"won": 6,
+		"draw": 4,
+		"lost": 2,
+		"for": 18,
+		"against": 8,
+		"win%": 50
+	},
+	{
+		"club": "Lincoln City",
+		"played": 30,
+		"won": 15,
+		"draw": 4,
+		"lost": 11,
+		"for": 62,
+		"against": 42,
+		"win%": 50
+	},
+	{
+		"club": "Liverpool",
+		"played": 174,
+		"won": 68,
+		"draw": 49,
+		"lost": 57,
+		"for": 238,
+		"against": 224,
+		"win%": 39.08
+	},
+	{
+		"club": "Loughborough",
+		"played": 10,
+		"won": 7,
+		"draw": 2,
+		"lost": 1,
+		"for": 29,
+		"against": 7,
+		"win%": 70
+	},
+	{
+		"club": "Long Eaton Rangers",
+		"played": 2,
+		"won": 2,
+		"draw": 0,
+		"lost": 0,
+		"for": 6,
+		"against": 1,
+		"win%": 100
+	},
+	{
+		"club": "Luton Town",
+		"played": 38,
+		"won": 27,
+		"draw": 7,
+		"lost": 4,
+		"for": 88,
+		"against": 26,
+		"win%": 71.05
+	},
+	{
+		"club": "Manchester City",
+		"played": 162,
+		"won": 64,
+		"draw": 51,
+		"lost": 47,
+		"for": 230,
+		"against": 221,
+		"win%": 39.51
+	},
+	{
+		"club": "Middlesbrough",
+		"played": 104,
+		"won": 53,
+		"draw": 22,
+		"lost": 29,
+		"for": 186,
+		"against": 152,
+		"win%": 50.96
+	},
+	{
+		"club": "Millwall",
+		"played": 12,
+		"won": 8,
+		"draw": 3,
+		"lost": 1,
+		"for": 28,
+		"against": 7,
+		"win%": 66.67
+	},
+	{
+		"club": "Nelson",
+		"played": 2,
+		"won": 1,
+		"draw": 0,
+		"lost": 1,
+		"for": 2,
+		"against": 1,
+		"win%": 50
+	},
+	{
+		"club": "New Brighton Tower",
+		"played": 6,
+		"won": 4,
+		"draw": 0,
+		"lost": 2,
+		"for": 11,
+		"against": 6,
+		"win%": 66.67
+	},
+	{
+		"club": "Newcastle United",
+		"played": 160,
+		"won": 79,
+		"draw": 39,
+		"lost": 42,
+		"for": 304,
+		"against": 229,
+		"win%": 49.38
+	},
+	{
+		"club": "Northampton Town",
+		"played": 2,
+		"won": 1,
+		"draw": 1,
+		"lost": 0,
+		"for": 7,
+		"against": 3,
+		"win%": 50
+	},
+	{
+		"club": "Norwich City",
+		"played": 60,
+		"won": 36,
+		"draw": 12,
+		"lost": 12,
+		"for": 106,
+		"against": 49,
+		"win%": 60
+	},
+	{
+		"club": "Nottingham Forest",
+		"played": 102,
+		"won": 45,
+		"draw": 25,
+		"lost": 32,
+		"for": 183,
+		"against": 143,
+		"win%": 44.12
+	},
+	{
+		"club": "Notts County",
+		"played": 48,
+		"won": 20,
+		"draw": 14,
+		"lost": 14,
+		"for": 74,
+		"against": 60,
+		"win%": 41.67
+	},
+	{
+		"club": "Oldham Athletic",
+		"played": 36,
+		"won": 17,
+		"draw": 9,
+		"lost": 10,
+		"for": 74,
+		"against": 45,
+		"win%": 47.22
+	},
+	{
+		"club": "Oxford United",
+		"played": 8,
+		"won": 6,
+		"draw": 0,
+		"lost": 2,
+		"for": 18,
+		"against": 7,
+		"win%": 75
+	},
+	{
+		"club": "Plymouth Argyle",
+		"played": 12,
+		"won": 6,
+		"draw": 2,
+		"lost": 4,
+		"for": 20,
+		"against": 20,
+		"win%": 50
+	},
+	{
+		"club": "Port Vale",
+		"played": 36,
+		"won": 21,
+		"draw": 5,
+		"lost": 10,
+		"for": 76,
+		"against": 37,
+		"win%": 58.33
+	},
+	{
+		"club": "Portsmouth",
+		"played": 58,
+		"won": 28,
+		"draw": 13,
+		"lost": 17,
+		"for": 91,
+		"against": 60,
+		"win%": 48.28
+	},
+	{
+		"club": "Preston North End",
+		"played": 66,
+		"won": 26,
+		"draw": 20,
+		"lost": 20,
+		"for": 107,
+		"against": 90,
+		"win%": 39.39
+	},
+	{
+		"club": "Queens Park Rangers",
+		"played": 44,
+		"won": 28,
+		"draw": 10,
+		"lost": 6,
+		"for": 82,
+		"against": 42,
+		"win%": 63.64
+	},
+	{
+		"club": "Reading",
+		"played": 6,
+		"won": 4,
+		"draw": 2,
+		"lost": 0,
+		"for": 11,
+		"against": 6,
+		"win%": 66.67
+	},
+	{
+		"club": "Rotherham Town",
+		"played": 4,
+		"won": 3,
+		"draw": 0,
+		"lost": 1,
+		"for": 10,
+		"against": 6,
+		"win%": 75
+	},
+	{
+		"club": "Rotherham County",
+		"played": 2,
+		"won": 1,
+		"draw": 1,
+		"lost": 0,
+		"for": 4,
+		"against": 1,
+		"win%": 50
+	},
+	{
+		"club": "Sheffield United",
+		"played": 89,
+		"won": 40,
+		"draw": 16,
+		"lost": 33,
+		"for": 148,
+		"against": 128,
+		"win%": 44.94
+	},
+	{
+		"club": "Sheffield Wednesday",
+		"played": 118,
+		"won": 52,
+		"draw": 27,
+		"lost": 39,
+		"for": 197,
+		"against": 161,
+		"win%": 44.07
+	},
+	{
+		"club": "South Shields",
+		"played": 6,
+		"won": 4,
+		"draw": 1,
+		"lost": 1,
+		"for": 10,
+		"against": 3,
+		"win%": 66.67
+	},
+	{
+		"club": "Southampton",
+		"played": 105,
+		"won": 53,
+		"draw": 27,
+		"lost": 25,
+		"for": 176,
+		"against": 118,
+		"win%": 50.48
+	},
+	{
+		"club": "Stockport County",
+		"played": 18,
+		"won": 9,
+		"draw": 2,
+		"lost": 7,
+		"for": 29,
+		"against": 18,
+		"win%": 50
+	},
+	{
+		"club": "Stoke City",
+		"played": 90,
+		"won": 39,
+		"draw": 29,
+		"lost": 22,
+		"for": 145,
+		"against": 106,
+		"win%": 43.33
+	},
+	{
+		"club": "Sunderland",
+		"played": 128,
+		"won": 60,
+		"draw": 29,
+		"lost": 39,
+		"for": 220,
+		"against": 183,
+		"win%": 46.87
+	},
+	{
+		"club": "Sunderland Albion",
+		"played": 4,
+		"won": 1,
+		"draw": 0,
+		"lost": 3,
+		"for": 6,
+		"against": 10,
+		"win%": 25
+	},
+	{
+		"club": "Swansea City",
+		"played": 30,
+		"won": 15,
+		"draw": 6,
+		"lost": 9,
+		"for": 51,
+		"against": 32,
+		"win%": 50
+	},
+	{
+		"club": "Swindon Town",
+		"played": 2,
+		"won": 1,
+		"draw": 1,
+		"lost": 0,
+		"for": 6,
+		"against": 4,
+		"win%": 50
+	},
+	{
+		"club": "Tottenham Hotspur",
+		"played": 165,
+		"won": 82,
+		"draw": 42,
+		"lost": 41,
+		"for": 264,
+		"against": 206,
+		"win%": 49.7
+	},
+	{
+		"club": "Walsall",
+		"played": 18,
+		"won": 10,
+		"draw": 5,
+		"lost": 3,
+		"for": 46,
+		"against": 19,
+		"win%": 55.56
+	},
+	{
+		"club": "Watford",
+		"played": 26,
+		"won": 18,
+		"draw": 4,
+		"lost": 4,
+		"for": 48,
+		"against": 25,
+		"win%": 69.23
+	},
+	{
+		"club": "West Bromwich Albion",
+		"played": 124,
+		"won": 54,
+		"draw": 29,
+		"lost": 41,
+		"for": 223,
+		"against": 183,
+		"win%": 43.55
+	},
+	{
+		"club": "West Ham United",
+		"played": 127,
+		"won": 59,
+		"draw": 28,
+		"lost": 40,
+		"for": 234,
+		"against": 162,
+		"win%": 46.46
+	},
+	{
+		"club": "Wigan Athletic",
+		"played": 16,
+		"won": 15,
+		"draw": 0,
+		"lost": 1,
+		"for": 50,
+		"against": 5,
+		"win%": 93.75
+	},
+	{
+		"club": "Wimbledon",
+		"played": 28,
+		"won": 16,
+		"draw": 7,
+		"lost": 5,
+		"for": 51,
+		"against": 26,
+		"win%": 57.14
+	},
+	{
+		"club": "Wolverhampton Wanderers",
+		"played": 92,
+		"won": 42,
+		"draw": 17,
+		"lost": 33,
+		"for": 155,
+		"against": 134,
+		"win%": 40.48
+	},
+	{
+		"club": "York City",
+		"played": 2,
+		"won": 2,
+		"draw": 0,
+		"lost": 0,
+		"for": 3,
+		"against": 1,
+		"win%": 100
+	}
+]

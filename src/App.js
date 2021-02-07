@@ -7,9 +7,12 @@ import Switch from "react-bootstrap/esm/Switch";
 import Dashboard from "./components/dashboard/dashboard";
 import TennisInfo from "./components/tennis/tennisInfo";
 import { Button } from "react-bootstrap";
+import HomePage from "./components/homepage/HomePage";
 function App() {
 	return (
 		<>
+			<HomePage></HomePage>
+			{/*
 			<Router>
 				<Link to="/epl" className="linkButtons">
 					<Button bsPrefix="linkButtons">MAN UTD</Button>
@@ -23,6 +26,7 @@ function App() {
 					<Route extact path="/tennis" component={TennisInfo} />
 				</Switch>
 			</Router>
+			*/}
 		</>
 	);
 }

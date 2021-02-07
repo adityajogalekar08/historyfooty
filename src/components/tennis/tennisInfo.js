@@ -11,7 +11,7 @@ import {
 	YAxis,
 } from "recharts";
 const data = Tennisdata;
-console.log("TennisDATA:-", data);
+
 function TennisInfo() {
 	return (
 		<>
