@@ -40,4 +40,52 @@ const teams = () => {
 	return teamStats;
 };
 
-export default teams;
+const getSummarizedStats = (team) => {
+	/*
+	let totalRuns = 0;
+	let totalCatches = 0;
+	let totalWickets = 0;
+	for (let i = 0; i < data.length; i++) {
+		if (data[i].opposition === team) {
+			if (data[i].batting_score !== "TDNB" && data[i].batting_score !== "DNB") {
+				totalRuns += parseInt(data[i].batting_score, 10);
+			}
+			if (data[i].wickets !== "-") {
+				totalWickets += parseInt(data[i].wickets, 10);
+			}
+			if (data[i].catches !== "-") {
+				totalCatches += parseInt(data[i].catches, 10);
+			}
+		}
+	}
+    return { totalRuns, totalCatches, totalWickets };
+    */
+	let gamesPlayed = 0;
+	let gamesWon = 0;
+	let gamesDraw = 0;
+	let gamesLost = 0;
+	let goalsFor = 0;
+	let goalsAgainst = 0;
+	let winPercentage = 0;
+	for (let i = 0; i < data.length; i++) {
+		if (data[i].club === team) {
+			gamesPlayed = parseInt(data[i].played);
+			gamesWon = parseInt(data[i].won);
+			gamesDraw = parseInt(data[i].draw);
+			gamesLost = parseInt(data[i].lost);
+			goalsFor = parseInt(data[i].for);
+			goalsAgainst = parseInt(data[i].against);
+			winPercentage = parseInt(data[i].winPercentage);
+		}
+	}
+	return {
+		gamesPlayed,
+		gamesWon,
+		gamesDraw,
+		gamesLost,
+		goalsFor,
+		goalsAgainst,
+		winPercentage,
+	};
+};
+export { teams, getSummarizedStats };
