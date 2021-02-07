@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Container, Navbar } from "react-bootstrap";
 import "./menubar.css";
 import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "../../components/globalStyles";
-import { lightTheme, darkTheme } from "../../components/Themes";
+import { GlobalStyles } from "../globalStyles";
+import { lightTheme, darkTheme } from "../Themes";
 
 import { FaRegMoon as Moon } from "react-icons/fa";
 import { Link } from "react-router-dom";

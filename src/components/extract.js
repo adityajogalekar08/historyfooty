@@ -6,7 +6,6 @@ const teams = () => {
 	let teamStats = [];
 	for (let i = 0; i < data.length; i++) {
 		teams.add(data[i].club);
-		console.log("abc:", teams);
 	}
 
 	teams.forEach((team) => {
@@ -36,7 +35,6 @@ const teams = () => {
 	});
     console.log("sortedTeamDetails:", sortedTeamDetails);
     */
-	console.log("the teams are :", teamStats);
 	return teamStats;
 };
 

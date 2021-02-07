@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePage.css";
-import teams from "../extract";
+import { teams } from "../extract";
 
 const TeamCards = (props) => {
 	const teamsList = teams();
