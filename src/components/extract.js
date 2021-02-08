@@ -13,77 +13,62 @@ const teams = () => {
 			teamName: team,
 		});
 	});
-	/*
-	for (let i = 0; i < data.length; i++) {
-		for (let j = 0; j < teamStats.length; j++) {
-			if (teamStats[j].teamName === data[i].opposition) {
-				teamStats[j].matches++;
-			}
-		}
-	}
 
-	let sortedTeamDetails = teams.sort((a, b) => {
-		let nameA = a.club.replace(/\.| /g, "").toLowerCase();
-		let nameB = b.club.replace(/\.| /g, "").toLowerCase();
-		let comparison = 0;
-		if (nameA > nameB) {
-			comparison = 1;
-		} else if (nameA < nameB) {
-			comparison = -1;
-		}
-		return comparison;
-	});
-    console.log("sortedTeamDetails:", sortedTeamDetails);
-    */
 	return teamStats;
 };
-
+// summarized total stats
 const getSummarizedStats = (team) => {
-	/*
-	let totalRuns = 0;
-	let totalCatches = 0;
-	let totalWickets = 0;
-	for (let i = 0; i < data.length; i++) {
-		if (data[i].opposition === team) {
-			if (data[i].batting_score !== "TDNB" && data[i].batting_score !== "DNB") {
-				totalRuns += parseInt(data[i].batting_score, 10);
-			}
-			if (data[i].wickets !== "-") {
-				totalWickets += parseInt(data[i].wickets, 10);
-			}
-			if (data[i].catches !== "-") {
-				totalCatches += parseInt(data[i].catches, 10);
-			}
-		}
-	}
-    return { totalRuns, totalCatches, totalWickets };
-    */
-	let gamesPlayed = 0;
-	let gamesWon = 0;
-	let gamesDraw = 0;
-	let gamesLost = 0;
-	let goalsFor = 0;
-	let goalsAgainst = 0;
+	let homeGamesPlayed = 0;
+	let homeGamesWon = 0;
+	let homeGamesLost = 0;
+	let homeGamesDraw = 0;
+	let awayGamesPlayed = 0;
+	let awayGamesWon = 0;
+	let awayGamesLost = 0;
+	let awayGamesDraw = 0;
+	let totalGamesPlayed = 0;
+	let totalGamesWon = 0;
+	let totalGamesDraw = 0;
+	let totalGamesLost = 0;
+	let totalGoalsFor = 0;
+	let totalGoalsAgainst = 0;
 	let winPercentage = 0;
 	for (let i = 0; i < data.length; i++) {
 		if (data[i].club === team) {
-			gamesPlayed = parseInt(data[i].played);
-			gamesWon = parseInt(data[i].won);
-			gamesDraw = parseInt(data[i].draw);
-			gamesLost = parseInt(data[i].lost);
-			goalsFor = parseInt(data[i].for);
-			goalsAgainst = parseInt(data[i].against);
+			homeGamesPlayed = parseInt(data[i].playedHome);
+			homeGamesWon = parseInt(data[i].wonHome);
+			homeGamesLost = parseInt(data[i].lostHome);
+			homeGamesDraw = parseInt(data[i].drawHome);
+			awayGamesPlayed = parseInt(data[i].playedAway);
+			awayGamesWon = parseInt(data[i].wonAway);
+			awayGamesLost = parseInt(data[i].lostAway);
+			awayGamesDraw = parseInt(data[i].drawAway);
+			totalGamesPlayed = parseInt(data[i].playedTotal);
+			totalGamesWon = parseInt(data[i].wonTotal);
+			totalGamesDraw = parseInt(data[i].drawTotal);
+			totalGamesLost = parseInt(data[i].lostTotal);
+			totalGoalsFor = parseInt(data[i].forTotal);
+			totalGoalsAgainst = parseInt(data[i].againstTotal);
 			winPercentage = parseInt(data[i].winPercentage);
 		}
 	}
 	return {
-		gamesPlayed,
-		gamesWon,
-		gamesDraw,
-		gamesLost,
-		goalsFor,
-		goalsAgainst,
+		homeGamesPlayed,
+		homeGamesWon,
+		homeGamesLost,
+		homeGamesDraw,
+		awayGamesPlayed,
+		awayGamesWon,
+		awayGamesLost,
+		awayGamesDraw,
+		totalGamesPlayed,
+		totalGamesWon,
+		totalGamesDraw,
+		totalGamesLost,
+		totalGoalsFor,
+		totalGoalsAgainst,
 		winPercentage,
 	};
 };
+
 export { teams, getSummarizedStats };

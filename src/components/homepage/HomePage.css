@@ -193,7 +193,7 @@
 }
 
 .lost {
-	background: red;
+	background: #ff0000;
 	animation-delay: 200ms;
 }
 .for {
@@ -231,7 +231,30 @@
 	height: 15px;
 	width: 15px;
 }
-
+.dual-row {
+	width: 95%;
+	height: 250px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.dual-boxes {
+	height: 100%;
+	width: 49%;
+	background-color: #334553;
+	border-radius: 4px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.radar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
 @media screen and (max-width: 800px) {
 	.dashboard-placeholder {
 		display: flex;
