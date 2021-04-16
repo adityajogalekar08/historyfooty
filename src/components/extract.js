@@ -1,4 +1,4 @@
-import data from "./assets/json/unitedvsall.json";
+import data from "./assets/json/chelseavsall.json";
 console.log("data :", data);
 // Return opposition teams
 const teams = () => {

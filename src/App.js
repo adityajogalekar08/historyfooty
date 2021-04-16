@@ -9,23 +9,14 @@ import TennisInfo from "./components/tennis/tennisInfo";
 import { Button } from "react-bootstrap";
 import HomePage from "./components/homepage/HomePage";
 import AllData from "./components/dashboard/AllData";
+import LandingPage from "./components/landingPage/LandingPage";
+
 function App() {
 	return (
 		<>
 			<Router>
+				{" "}
 				<AllData></AllData>
-				{/*	<Link to="/epl" className="linkButtons">
-					<Button bsPrefix="linkButtons">MAN UTD</Button>
-				</Link>
-				<Link to="/tennis" className="linkButtons">
-					<Button bsPrefix="linkButtons">TENNIS</Button>
-				</Link>
-				<Switch>
-					<Route extact path="/" />
-					<Route extact path="/epl" component={Dashboard} />
-					<Route extact path="/tennis" component={TennisInfo} />
-				</Switch>
-				*/}
 			</Router>
 		</>
 	);

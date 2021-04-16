@@ -1,12 +1,35 @@
 .dashboard-container {
 	min-height: 100vh;
-	/* background-image: linear-gradient(-180deg, #14233c 43%, #0d1b32); */
+	/*background: url(bitmap.png) no-repeat center center fixed;*/
 	color: white;
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(#28313b),
+			to(#485461)
+		)
+		fixed;
 	background-color: #34495e;
 	justify-content: space-around;
 	overflow: hidden;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
+.lp-sec {
+	height: 100vh;
+	max-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #1b2136;
+	position: relative;
+}
 .dashboard-placeholder {
 	display: none;
 	min-height: 100vh;
